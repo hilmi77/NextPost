@@ -56,6 +56,7 @@ export default function Posts({ posts }) {
       return newPosts;
     }
   );
+
   if (!optimisticPosts || optimisticPosts.length === 0) {
     return <p>There are no posts yet. Maybe start sharing some?</p>;
   }
