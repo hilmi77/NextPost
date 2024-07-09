@@ -56,9 +56,9 @@ To learn more about Next.js, take a look at the following resources:
 
 You can also check out the following documentation for the hooks used in this project:
 
-- [useOptimistic Documentation](https://example.com/useOptimistic)
-- [useFormState Documentation](https://example.com/useFormState)
-- [useFormStatus Documentation](https://example.com/useFormStatus)
+- [useOptimistic Documentation](https://react.dev/reference/react/useOptimistic)
+- [useFormState Documentation](https://pl.react.dev/reference/react-dom/hooks/useFormState)
+- [useFormStatus Documentation](https://react.dev/reference/react-dom/hooks/useFormStatus)
 
 ## Contributing
 
