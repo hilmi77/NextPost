@@ -3,11 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
-  console.log("Header component rendered", logo);
+  // console.log("Header component rendered", logo);
   return (
     <header id="main-header">
       <Link href="/">
-        <Image src={logo} alt="Mobile phone with posts feed on it" priority />
+        <Image
+          src={logo}
+          alt="Mobile phone with posts feed on it"
+          priority
+          width={100}
+          height={100}
+        />
       </Link>
       <nav>
         <ul>
